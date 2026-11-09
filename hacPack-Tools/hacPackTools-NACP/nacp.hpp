@@ -63,7 +63,7 @@ typedef struct {
     std::uint8_t ProgramIndex;
     std::uint8_t RequiredNetworkServiceLicenseOnLaunchFlag;
     std::uint8_t reserved_0x3214[0x4];
-    std::uint8_t Reserved[0xDEC];
+    std::uint8_t Reserved[0xDE8];
 } nacp_t;
 #pragma pack(pop)
 
